@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Bug Hunter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🔹 Navbar -->
+<nav class="navbar">
+  <div class="logo">Bug Hunter</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="course.html">Courses</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- 🔹 Hero -->
+<section class="contact-hero">
+  <div class="hero-content">
+    <h1>Contact & Registration</h1>
+    <p>Fill the form to join our courses</p>
+  </div>
+</section>
+
+<!-- 🔹 Contact Section -->
+<section class="contact-section">
+
+  <!-- Contact Info -->
+  <div class="contact-info">
+    <h2>Get in Touch</h2>
+    <p>📍 Bug Hunter, Your City</p>
+    <p>📞 +91 9876543210</p>
+    <p>📧 info@xyz.com</p>
+  </div>
+
+  <!-- Form -->
+  <div class="form-box">
+    <form id="contactForm">
+
+      <input type="text" id="name" placeholder="Full Name">
+      <span class="error" id="nameError"></span>
+
+      <input type="email" id="email" placeholder="Email">
+      <span class="error" id="emailError"></span>
+
+      <input type="text" id="phone" placeholder="Phone Number">
+      <span class="error" id="phoneError"></span>
+
+      <select id="course">
+        <option value="">Select Course</option>
+        <option>Web Development</option>
+        <option>Data Science</option>
+        <option>Cyber Security</option>
+      </select>
+      <span class="error" id="courseError"></span>
+
+      <textarea id="message" placeholder="Message"></textarea>
+
+      <button type="submit" class="gradient-btn">Submit</button>
+
+    </form>
+  </div>
+
+</section>
+
+<!-- 🔹 Footer -->
+<footer>
+  <p>© 2026 Bug Hunter</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
